@@ -20,6 +20,13 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "config": {
+    "generateRelease": {
+      "no_confirm": false,
+      "remote": "origin",
+      "release_message": false
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
