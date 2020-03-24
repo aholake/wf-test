@@ -22,8 +22,8 @@
   },
   "config": {
     "generateRelease": {
-      "post_complete_commands": [
-        "echo 'Hello World'"
+      "post_commit_commands": [
+        "git push origin HEAD"
       ]
     }
   },
