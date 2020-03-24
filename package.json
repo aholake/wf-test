@@ -24,7 +24,8 @@
     "generateRelease": {
       "no_confirm": false,
       "remote": "origin",
-      "release_message": false
+      "release_message": false,
+      "skip_finish": false
     }
   },
   "browserslist": {
