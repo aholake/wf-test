@@ -22,10 +22,7 @@
   },
   "config": {
     "generateRelease": {
-      "no_confirm": true,
-      "remote": "origin",
-      "release_message": false,
-      "skip_finish": true
+      "post_complete_commands": ["echo 'Hello World'"]
     }
   },
   "browserslist": {
