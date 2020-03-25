@@ -24,6 +24,7 @@
     "generateRelease": {
       "no_confirm": true,
       "skip_finish": true,
+      "skip_git_push": true,
       "post_commit_commands": [
         "git push origin HEAD"
       ]
