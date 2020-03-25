@@ -22,14 +22,12 @@
   },
   "config": {
     "generateRelease": {
-      "generateRelease": {
         "no_confirm": true,
         "skip_finish": true,
         "skip_git_push": false,
         "post_commit_commands": [
           "git push origin HEAD"
         ]
-      }
     }
   },
   "browserslist": {
