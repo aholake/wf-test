@@ -23,7 +23,10 @@
   "config": {
     "generateRelease": {
       "no_confirm": true,
-      "skip_finish": true
+      "skip_finish": true,
+      "post_commit_commands": [
+        "git push origin HEAD"
+      ]
     }
   },
   "browserslist": {
