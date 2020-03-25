@@ -1,6 +1,6 @@
 {
   "name": "wf-test",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -22,12 +22,12 @@
   },
   "config": {
     "generateRelease": {
-        "no_confirm": true,
-        "skip_finish": true,
-        "skip_git_push": false,
-        "post_commit_commands": [
-          "git push origin HEAD"
-        ]
+      "no_confirm": true,
+      "skip_finish": true,
+      "skip_git_push": false,
+      "post_commit_commands": [
+        "git push origin HEAD"
+      ]
     }
   },
   "browserslist": {
